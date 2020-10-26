@@ -1,0 +1,17 @@
+{
+   "type": "mysql",
+   "host": "localhost",
+   "port": 3306,
+   "username": "test",
+   "password": "test",
+   "database": "test",
+   "synchronize": true,
+   "dropSchema": true,
+   "logging": ["query", "error"],
+   "entities": [
+      "src/index.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/"
+   }
+}
